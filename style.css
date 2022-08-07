@@ -1,0 +1,194 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h5,h6,p{
+    font-family:'poppins',sans-serif;
+}
+
+
+.navbar{
+    background-color: #0B0B0B;
+    padding:0px !important;
+}
+.navbar-brand{
+    padding:0px !important;
+}
+.nav-item{
+    padding: 0px 20px
+}
+
+.nav-item a{
+    font-family:'poppins', sans-serif;
+    color:#fff;
+    border-bottom:5px solid #EB4C36;
+
+}
+.nav-item a:hover{
+    color:#EB4C36;
+    border-bottom:5px solid #EB4C36;
+    box-shadow: 0px 3px 6px #EB4C36E2;
+opacity: 1;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 30px 0;
+}
+.direction-btn{
+    background-color: #EB4C36;
+    border-radius: 4px;
+    opacity: 1;
+    width: 150px;
+    height:50px;
+    font-family: 'poppins', sans-serif;
+    color:#fff;
+    border:none;
+}
+.direction-btn:hover{
+    transform: translate(0px,10px);
+
+}
+.phone{
+    color:#fff;
+    text-decoration: none;
+    font-family: 'poppins',sans-serif;
+}
+.phone:hover{
+    color:white;
+    padding: 2px;
+}
+.main-banner{
+    background-image:url("./images/Bitmap-2@2x.png");
+    height:100vh;
+    background-size:cover;
+    position: relative;
+    align-items: center;
+}
+.banner-text{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    text-align:center;
+    color:#fff;
+    font-family: 'poppins',sans-serif;
+}
+.whatweoffer{
+    background-color: #0B0B0B;
+}
+.features{
+    background:url("./images/dj-new.jpg") no-repeat center ;
+    background-size:70%;
+    align-items: center;
+    
+}
+.sub-heading{
+    color:#FFA326;
+    padding-left: 176px;
+
+}
+.title{
+    color:#fff;
+    font-weight: 300;
+    padding-left: 176px;
+
+}
+.subtitle{
+    color:#fff;
+    font-size: 14px;
+    font-weight:300;
+    padding-left: 176px;
+
+}
+
+/* .batsman{
+    margin-left: 200px;
+    width: 458px;
+    height:258px;
+} */
+.card-one{
+    width:100%;
+    background-image:url("./images/card-one.png");
+    background-size: cover;
+}
+.card-two{
+    width:100%;
+    background-image:url("./images/meal-pic.png");
+    background-size: cover;
+}
+.card-three{
+    width:100%;
+    background-image:url("./images/great-atmo.png");
+    background-size: cover;
+}
+.card-content{
+    padding-top: 180px;
+}
+
+
+
+
+
+/* media query */
+
+@media screen and (max-width:991px){
+    .card-content{
+        padding-top: 94px;
+    }
+    .sub-heading{
+        color:#FFA326;
+        padding-left: 100px;
+    
+    }
+    .title{
+        color:#fff;
+        font-weight: 300;
+        padding-left: 100px;
+    
+    }
+    .subtitle{
+        color:#fff;
+        font-weight:normal;
+        padding-left: 100px;
+    
+    }
+}
+@media screen and (max-width:768px){
+    .card-content{
+        padding-top: 287px;
+    }
+    .features {
+       
+        background-size: unset;
+        
+    }
+    .sub-heading{
+        color:#FFA326;
+        padding-left: 0px;
+    
+    }
+    .title{
+        color:#fff;
+        font-weight: 300;
+        padding-left: 0px;
+    
+    }
+    .subtitle{
+        color:#fff;
+        font-weight:normal;
+        padding-left: 0px;
+    
+    }
+    
+    
+}
+@media screen and (max-width:576px){
+    .card-content{
+        padding-top:210px;
+    }
+}
+@media screen and (max-width:379px){
+    .card-content{
+        padding-top:144px;
+    }
+}
