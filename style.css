@@ -286,6 +286,9 @@ p {
   .food-img {
     margin-top: -80px;
   }
+  .phone{
+    display:none;
+  }
 }
 @media screen and (max-width: 576px) {
   .card-content {
